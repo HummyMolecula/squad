@@ -1,8 +1,8 @@
 from turtle import *
 
-a = int(input("a: "))
+x = int(input("side lenght: "))
 for i in range(4):
-    fd(a)
+    fd(x)
     right(90)
 
 done()
