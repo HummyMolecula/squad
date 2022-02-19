@@ -1,11 +1,8 @@
 from turtle import *
 
-a = 80
-b = a + 20
-for i in range(2):
+a = int(input("a: "))
+for i in range(4):
     fd(a)
-    right(90)
-    fd(b)
     right(90)
 
 done()
